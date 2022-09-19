@@ -4,13 +4,18 @@
 
 This project is created to generate random passwords based on the selected criteria(s) by the user.
 
-![Alt text](/Screenshot.png "Password Generator")
+
+
 
 ## Installation
 
 N/A
 
 ## Usage
+
+![Alt text](/Screenshot.png "Password Generator")
+
+Link: https://khanhpbui.github.io/password-generator/
 
 This project will help the user generate a random password that meets specified criteria dictated by the user.
 Once the page is accessed, the user will be promted with questions about which criteria to include in the password.
