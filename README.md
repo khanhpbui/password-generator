@@ -4,7 +4,7 @@
 
 This project is created to generate random passwords based on the selected criteria(s) by the user.
 
-
+![Alt text](/Screenshot.png "Password Generator")
 
 ## Installation
 
