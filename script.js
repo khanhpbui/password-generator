@@ -32,8 +32,6 @@ function generatePassword(){
     var upperCaseArr = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
     var randomValUpperCase = upperCaseArr[Math.floor(Math.random() * upperCaseArr.length)];
     generatedPass += randomValUpperCase;
-    // selectedChar.push(upperCaseArr);
-    // selectedChar = [...selectedChar, ...upperCaseArr];
     console.log(randomValUpperCase);
   } else{
     var upperCaseArr = [];
@@ -46,7 +44,6 @@ function generatePassword(){
     var randomValLowCase = lowCaseArr[Math.floor(Math.random() * lowCaseArr.length)];
     generatedPass += randomValLowCase;
     console.log(randomValLowCase);
-    // selectedChar.push(lowCaseArr);
   } else{
     var lowCaseArr = [];
     console.log('The user does not want any lowercase character.')
@@ -58,7 +55,6 @@ function generatePassword(){
     var randomValNums = numsArry[Math.floor(Math.random() * numsArry.length)];
     generatedPass += randomValNums;
     console.log(randomValNums);
-    // selectedChar.push(numsArry);
   } else{
     var numsArry = [];
     console.log('The user does not want any number character.')
@@ -70,7 +66,6 @@ function generatePassword(){
     var randomValSpecChar = specCharArr[Math.floor(Math.random() * specCharArr.length)];
     generatedPass += randomValSpecChar;
     console.log(randomValSpecChar);
-    // selectedChar.push(specCharArr);
   } else{
     var specCharArr = [];
     console.log('The user does not want any special character.')
